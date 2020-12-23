@@ -1,5 +1,6 @@
 #### Preamble ####
 # Purpose: Prepare and clean data downloaded from the Globe and Mail. This data features information obtained from the Correctional Service of Canada. This must be run first before running any other script in order to utilize cleaned data. 
+# Prerequisite: Before running this script, you must download the CSC and place it into the input folder.  The name of the file should be named as 'Globe_and_Mail_CSC_data.csv' the data can be found here at: https://www.theglobeandmail.com/files/editorial/News/nw-na-risk-1023/The_Globe_and_Mail_CSC_OMS_2012-2018_20201022235635.zip
 # Author: Jaffa Romain
 # Data: 14 December 2020
 # Contact: jaffa.romain@mail.utoronto.ca
@@ -23,8 +24,7 @@ CSCdata <- CSCdata %>% filter(JURISDICTION != 'PROVINCIAL')
 # drop NAs in variables of interest - now left with 686 540
 CSCdata <- CSCdata %>% drop_na(RACE, `RACE GROUPING`, `OFFENDER SECURITY LEVEL`, `REINTEGRATION POTENTIAL`)
 saveRDS(CSCdata, file = "input/cleaned_CSC.rds")
-
-
+write_csv(CSCdata, "CSC_data.csv")
 ### EDA to look at any trends in data ###
 
 # Data frame has separate entries for each offense of offenders - removing duplicate to get unique entry for each offender 

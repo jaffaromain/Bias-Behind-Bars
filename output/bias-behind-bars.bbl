@@ -1,0 +1,71 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Cardoso(2020)]{biasarticle}
+Tom Cardoso.
+\newblock \emph{Bias behind bars: A Globe investigation finds a prison system
+  stacked against Black and Indigenous inmates}.
+\newblock The Globe and Mail, Canada, 2020.
+\newblock URL
+  \url{https://www.theglobeandmail.com/canada/article-investigation-racial-bias-in-canadian-prison-risk-assessments/}.
+
+\bibitem[{Government of Ontario}(2020)]{datastandards}
+{Government of Ontario}.
+\newblock \emph{Data Standards for the Identification and Monitoring of
+  Systemic Racism}, 2020.
+\newblock URL
+  \url{https://www.ontario.ca/document/data-standards-identification-and-monitoring-systemic-racism}.
+
+\bibitem[{Public Safety Canada}(2018)]{PublicSafety}
+{Public Safety Canada}.
+\newblock \emph{Offender Risk Assessment Practices Vary Across Canada}.
+\newblock Public Safety Canada, Ottawa, Canada, 2018.
+\newblock URL
+  \url{https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/2017-s015/index-en.aspx}.
+
+\bibitem[{R Core Team}(2019)]{R}
+{R Core Team}.
+\newblock \emph{R: A Language and Environment for Statistical Computing}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria, 2019.
+\newblock URL \url{https://www.R-project.org}.
+
+\bibitem[Wickham and Hester(2020)]{readr}
+Hadley Wickham and Jim Hester.
+\newblock \emph{readr: Read Rectangular Text Data}, 2020.
+\newblock URL \url{https://CRAN.R-project.org/package=readr}.
+\newblock R package version 1.4.0.
+
+\bibitem[Wickham et~al.(2019)Wickham, Averick, Bryan, Chang, McGowan,
+  François, Grolemund, Hayes, Henry, Hester, Kuhn, Pedersen, Miller, Bache,
+  Müller, Ooms, Robinson, Seidel, Spinu, Takahashi, Vaughan, Wilke, Woo, and
+  Yutani]{tidyverse}
+Hadley Wickham, Mara Averick, Jennifer Bryan, Winston Chang, Lucy~D'Agostino
+  McGowan, Romain François, Garrett Grolemund, Alex Hayes, Lionel Henry, Jim
+  Hester, Max Kuhn, Thomas~Lin Pedersen, Evan Miller, Stephan~Milton Bache,
+  Kirill Müller, Jeroen Ooms, David Robinson, Dana~Paige Seidel, Vitalie
+  Spinu, Kohske Takahashi, Davis Vaughan, Claus Wilke, Kara Woo, and Hiroaki
+  Yutani.
+\newblock Welcome to the {tidyverse}.
+\newblock \emph{Journal of Open Source Software}, 4\penalty0 (43):\penalty0
+  1686, 2019.
+\newblock \doi{10.21105/joss.01686}.
+
+\bibitem[Wickham et~al.(2020)Wickham, François, {Henry}, and Müller]{dplyr}
+Hadley Wickham, Romain François, Lionel {Henry}, and Kirill Müller.
+\newblock \emph{dplyr: A Grammar of Data Manipulation}, 2020.
+\newblock URL \url{https://CRAN.R-project.org/package=dplyr}.
+\newblock R package version 1.0.2.
+
+\bibitem[Zinger(2020)]{statsrace}
+Ivan Zinger.
+\newblock \emph{Office of the Correctional Investigator Annual Report
+  2019-2020}.
+\newblock The Globe and Mail, Ottawa, Canada, 2020.
+\newblock URL
+  \url{https://www.oci-bec.gc.ca/cnt/rpt/annrpt/annrpt20192020-eng.aspx}.
+
+\end{thebibliography}
